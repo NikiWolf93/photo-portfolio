@@ -5,3 +5,38 @@ body {
 .pg-pic {
   image-resolution: 1440px 900px;
 }
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 72px;
+  color: white;
+}
+
+h6 {
+  color: rgba(246, 82, 130, 1);
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+i {
+  color: white;
+}
+
+.container {
+  justify-content: space-evenly;
+}
+
+.logo-footer {
+  image-resolution: 150px 24.75px;
+}
+
+footer {
+  background: rgba(40, 35, 35, 1);
+}
+
+div {
+  color: white;
+}
