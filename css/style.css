@@ -1,5 +1,6 @@
 body {
   background: black;
+  font-family: "Roboto", sans-serif;
 }
 
 .pg-pic {
@@ -25,12 +26,16 @@ i {
   color: white;
 }
 
+a.nav-link {
+  color: white !important;
+}
+
 .container {
   justify-content: space-evenly;
 }
 
 .logo-footer {
-  image-resolution: 150px 24.75px;
+  image-resolution: 0 150px 0 24.75px;
 }
 
 footer {
@@ -44,4 +49,49 @@ div {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+.cover {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.cover-font {
+  font-size: 24px;
+  padding: 350px 0 0 0;
+  letter-spacing: 5px;
+}
+
+button {
+  color: rgba(39, 33, 66, 1);
+  margin: 18px 30px;
+  padding: 14px 40px;
+  font-size: 14px;
+  font-family: "Montserrat" bold;
+  display: block;
+  margin: 0 auto;
+
+  border-radius: 50px;
+  background: white;
+}
+
+.cover-p {
+  display: block;
+  margin: 0 auto;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 48px;
+}
+
+.cover-title {
+  letter-spacing: 10px;
+}
+
+.navbar {
+  background: black !important;
+}
+
+.header-bg {
+  background: url(/images/bgx1.png) center no-repeat;
+  padding-bottom: 301px;
 }
