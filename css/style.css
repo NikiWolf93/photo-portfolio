@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background: #212121;
   font-family: "Roboto", sans-serif;
 }
 
@@ -50,6 +50,7 @@ div {
   max-width: 100%;
   height: auto;
 }
+
 .cover {
   text-align: center;
   color: white;
@@ -77,10 +78,8 @@ button {
 
 .cover-p {
   display: block;
+  text-align: center;
   margin: 0 auto;
-  padding-left: 300px;
-  padding-right: 300px;
-  padding-bottom: 48px;
 }
 
 .cover-title {
@@ -88,10 +87,27 @@ button {
 }
 
 .navbar {
-  background: black !important;
+  background: black;
 }
 
 .header-bg {
-  background: url(/images/bgx1.png) center no-repeat;
+  background: url(/images/bgx1.png) center;
+  background-repeat: no-repeat;
   padding-bottom: 301px;
+}
+
+@media (max-width: 750px) {
+  .cover-title {
+    font-size: 38px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .cover-title,
+  .cover-font {
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+  }
 }
