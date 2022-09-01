@@ -34,10 +34,6 @@ a.nav-link {
   justify-content: space-evenly;
 }
 
-.logo-footer {
-  image-resolution: 0 150px 0 24.75px;
-}
-
 footer {
   background: rgba(40, 35, 35, 1);
 }
@@ -71,11 +67,35 @@ button {
   font-family: "Montserrat" bold;
   display: block;
   margin: 0 auto;
-
   border-radius: 50px;
   background: white;
 }
 
+.gallery {
+  letter-spacing: 10px;
+}
+
+.camera-text {
+  margin-left: -125px;
+}
+
+.about-button {
+  display: flex;
+  justify-content: center;
+  padding: 18px 30px;
+  width: 200px;
+  height: 53px;
+  top: 1755px;
+  margin-left: -20px;
+
+  background: #ffffff;
+  border-radius: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
 .cover-p {
   display: block;
   text-align: center;
@@ -87,7 +107,7 @@ button {
 }
 
 .navbar {
-  background: black;
+  background: rgba(32, 32, 32, 1);
 }
 
 .header-bg {
@@ -96,18 +116,51 @@ button {
   padding-bottom: 301px;
 }
 
+.logo-footer {
+  width: 150px;
+  height: 24.7px;
+  
+  
+}
+
+.camera {
+  width: 70px;
+  height: 40.57px;
+}
+
 @media (max-width: 750px) {
-  .cover-title {
+  .cover-title,
+  .gallery {
     font-size: 38px;
     text-align: center;
   }
+
+  .header-bg {
+    background: url(/images/bg-small.png) center;
+    background-repeat: no-repeat;
+    padding-bottom: 180px;
+  }
+
+  .logo-footer {
+    width: 120px;
+    height: 20px;
+  
 }
 
 @media (max-width: 450px) {
   .cover-title,
-  .cover-font {
+  .cover-font,
+   {
     font-size: 28px;
     font-weight: 800;
     text-align: center;
   }
+
+  .header-bg {
+    background: url(/images/bg-small.png) center;
+    background-repeat: no-repeat;
+    padding-bottom: 120px;
+  }
+
+  
 }
