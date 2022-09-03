@@ -27,7 +27,12 @@ i {
 }
 
 a.nav-link {
-  color: white !important;
+  color: #ffffff !important;
+}
+
+.navbar-toggler {
+  background-color: #ffffff !important;
+  opacity: 0.9;
 }
 
 .container {
@@ -35,11 +40,11 @@ a.nav-link {
 }
 
 footer {
-  background: rgba(40, 35, 35, 1);
+  background: #212529;
 }
 
 div {
-  color: white;
+  color: #ffffff;
 }
 
 .img-fluid {
@@ -49,7 +54,7 @@ div {
 
 .cover {
   text-align: center;
-  color: white;
+  color: #ffffff;
   padding: 20px;
 }
 
@@ -116,11 +121,9 @@ button {
   padding-bottom: 301px;
 }
 
-.logo-footer {
+.logo {
   width: 150px;
   height: 24.7px;
-  
-  
 }
 
 .camera {
@@ -141,16 +144,14 @@ button {
     padding-bottom: 180px;
   }
 
-  .logo-footer {
-    width: 120px;
-    height: 20px;
-  
+  .camera-text {
+    margin-left: -100px;
+  }
 }
 
 @media (max-width: 450px) {
   .cover-title,
-  .cover-font,
-   {
+  .cover-font {
     font-size: 28px;
     font-weight: 800;
     text-align: center;
@@ -162,5 +163,7 @@ button {
     padding-bottom: 120px;
   }
 
-  
+  .camera-text {
+    margin-left: auto;
+  }
 }
