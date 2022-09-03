@@ -26,6 +26,11 @@ i {
   color: white;
 }
 
+.email {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 a.nav-link {
   color: #ffffff !important;
 }
