@@ -1,3 +1,12 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: rgba(246, 82, 130, 1);
+  --background-color: #212121;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Montserrat" bold;
+  --navbar-footer-color: rgba(32, 32, 32, 1);
+}
+
 body {
   background: #212121;
   font-family: "Roboto", sans-serif;
@@ -24,6 +33,11 @@ p {
 
 i {
   color: white;
+  transition: 100ms ease-in-out;
+}
+
+i:hover {
+  color: rgba(246, 82, 130, 1);
 }
 
 .email {
